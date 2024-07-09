@@ -34,19 +34,20 @@ align-items: center;
 }
 
 .banner-btn{
-  width: 200px;
-  height: 24px;
-  padding: 21px 8px 21px 8px;
-  /* color: rgb(255, 255, 255); */
-  font-size: 28px;
+  width: 260px;
+  height: 70px;
+  padding: 23px 14px 26px 14px;
+  background-color: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 26px;
   font-weight: 600;
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
   border-radius: 8px;
-  background-color: rgb(13, 19, 33);
   margin: 32px 500px;
-  display: flex;
-  justify-content: center;
-
-}
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  
+ }
