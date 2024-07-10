@@ -226,11 +226,11 @@ color: rgb(13, 19, 33);
  }
 
  .text-btn-2{
-  /* Learn More */
+  
 position: static;
 width: 191px;
 height: 43px;
-/* Auto layout */
+
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -238,7 +238,7 @@ align-items: center;
 padding: 12px 20px 12px 20px;
 
 
-/* Inside Auto Layout */
+
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -255,4 +255,470 @@ box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 
+ }
+
+ .parent-3{
+  width: 994px;
+  display: flex;
+  justify-content:space-between;
+  margin: 32px;
+  padding: 48px;
+
+ }
+
+ .text-div-3{
+  width: 427px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+ }
+
+
+ .text-title-3{
+  position: static;
+width: 560px;
+height: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+ }
+
+ .text-description-3{
+  margin: 18px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+ }
+
+ .text-btn-3{
+  position: static;
+  width: 191px;
+  height: 43px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  
+ }
+
+ .text-title-4{
+ position: static;
+width: 852px;
+height: 37px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 77px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+ }
+
+ .text-description-4{
+  
+position: static;
+width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 30px 95px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+ }
+
+
+ .vdo-clip{
+ 
+position: static;
+width: 1076px;
+height: 550px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 10px 0px;
+border-radius: 16px;
+
+background: url(Jhankar);
+ }
+
+
+ /* card things */
+ .text-title-5{
+
+  text-align: center;
+ position: static;
+width: 852px;
+height: 37px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 60px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .text-description-5{
+  
+position: static;
+width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 80px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .card-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 48px;
+ }
+ .card-1{
+ 
+position: static;
+width: 284px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+background-color: rgb(255,246,244);
+
+ }
+
+ .card-2{
+  position: static;
+width: 284px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+background-color: rgb(242,246,254);
+ }
+
+
+ .card-3{
+  position: static;
+width: 284px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+background-color: rgb(255,253,242);
+ }
+
+
+ .card-title-1{
+ position: static;
+width: 284px;
+height: 36px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ .card-title-2{
+  position: static;
+width: 284px;
+height: 36px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .card-title-3{
+  position: static;
+width: 284px;
+height: 36px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+
+ .card-description-1{
+  width: 284px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin: 8px 0px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+line-height: 26px;
+
+ }
+ .card-description-2{
+  width: 284px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 8px 0px;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 26px;
+  
+ }
+ .card-description-3{
+  width: 284px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 8px 0px;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 26px;
+  
+ }
+
+ .card-btn-1{
+ 
+position: static;
+width: 284px;
+height: 19px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+ }
+ 
+ 
+ .card-btn-2{
+ 
+position: static;
+width: 284px;
+height: 19px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+ }
+ 
+ .card-btn-3{
+ 
+position: static;
+width: 284px;
+height: 19px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+ }
+
+
+ .nav-parent{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .banner-btn:hover{
+  color: brown;
  }
